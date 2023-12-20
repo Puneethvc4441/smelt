@@ -1,0 +1,11 @@
+@url = http://localhost:5000/token
+
+###
+POST {{url}}/get
+Content-Type: application/json
+
+{ 
+    
+    "method": "name"
+   
+}
