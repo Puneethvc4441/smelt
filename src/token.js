@@ -10,7 +10,7 @@ router.route("/balance")
 router.route("/set")
     .post(tokenSetMethod);
 
-    router.route("/sendToken")
-    .post(sendToken);
+    // router.route("/sendToken")
+    // .post(sendToken);
 
 module.exports = router;
